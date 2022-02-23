@@ -1,17 +1,27 @@
 /* LAB: Agrega una regla para que el color de los encabezados h1 sea rojo. */
-
+h1 {
+    color: red;
+}
 /* LAB: Agrega una regla para que el color de los párrafos sea verde. */
-
+p,li{
+    color: green;
+}
 /* LAB: Actualiza la regla para que también el color de los elementos de las listas sea verde. */
 
 /* LAB: Elimina los estilos de los elementos de las listas. */
+li{
+    list-style-type: none;
+}
 /* LAB: Modifica el estilo de las viñetas de los elementos de las listas para que sean cuadrados. */
-
+li{
+    list-style-type: square;
+}
 /* LAB: 
     Crea un selector que comience con el caracter "full stop." 
     Añade una regla para que el color sea orange.
     Añade una regla para que el peso de la fuente sea bold.
 */
+
 
 /* LAB: Añade una regla de tipo descendant combinator para elementos em contenidos en li. */
 
